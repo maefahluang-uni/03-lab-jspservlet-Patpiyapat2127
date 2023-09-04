@@ -21,6 +21,7 @@ This program helps to calculate bmi by given weight and height. The program shou
 3. compelte `bmi_result.jsp` to show bmi and built type from the request attributes.
 
 
+
 ## Exercise 2 - Create Integration Testing for JSP
 The integration test is in `TestBMICalculatorIT.java`. Please add another test case for normal built such as weight=50 and height=1.5.
 You may study `testCaclulate1` as a sample. This test case should make a connection to JSP and comapre the given result with extected result. Consider the following:

@@ -33,7 +33,6 @@ public class BMICalculatorServlet extends HttpServlet{
         }else {
             built = "extremely obese";
         }
-
         //TODO: add bmi and built to the request's attribute
       request.setAttribute("result", BMI);
       request.setAttribute("built", built);
